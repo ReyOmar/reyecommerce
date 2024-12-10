@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.8.2",
     "@sanity/icons": "^3.5.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.66.1",
@@ -16,6 +17,7 @@
     "next-sanity": "^9.8.25",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-is": "^19.0.0",
     "reyecommerce": "file:",
     "sanity": "^3.66.1",
     "styled-components": "^6.1.13"
