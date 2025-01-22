@@ -21,17 +21,19 @@ function Header() {
         <header className="flex flex-wrap justify-between items-center px-4 py-2">
             {/* Top row */}
             <div className="flex w-full flex-wrap justify-between items-center">
-                <link href="/"
+                <Link 
+                    href="/"
                     className="
                         text-2xl
                         font-bold
                         text-blue-500
                         hover:opacity-50
                         cursor-pointer
-                        mx-auto sm:mx-0"
+                        mx-auto 
+                        sm:mx-0"
                 >
-                    Shopr
-                </link>
+                    
+                </Link>
                 
                 <Form
                     action="/search"
