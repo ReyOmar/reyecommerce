@@ -1,4 +1,5 @@
 import { Category, Product } from '@/sanity.types';
+import ProductGrid from './ProductGrid';
 
 interface ProductsViewProps {
     products: Product[];

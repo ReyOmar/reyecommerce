@@ -1,5 +1,8 @@
+'use client';
+
 import { Product } from '@/sanity.types';
 import { AnimatePresence, motion } from 'framer-motion';
+import ProductThumb from './ProductThumb';
 
 function ProductGrid({ products }: { products: Product[] }) {
     return (
