@@ -58,5 +58,7 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
+
+//2:49:50 revisar por si no se ven las letras grandes en productos - probar antes
