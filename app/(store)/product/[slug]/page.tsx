@@ -59,6 +59,6 @@ async function ProductPage({
     );
 }
 
-//2:47:34 revidar por si hay algun error 
+//2:47:34 revisar por si hay algun error 
 
 export default ProductPage;
