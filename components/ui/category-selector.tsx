@@ -1,6 +1,6 @@
 'use client';
 
-import { ChevronUpDown, Check } from 'lucide-react';
+import { ChevronsUpDown, Check } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -44,7 +44,7 @@ export function CategorySlectorComponent({
                 {value 
                     ? categories.find((category) => category._id === value)?.title
                     : 'All Categories'}
-                <ChevronUpDown className='ml-2 h-4 w-4 shrink-0' />
+                <ChevronsUpDown className='ml-2 h-4 w-4 shrink-0' />
             </Button>
         </PopoverTrigger>
 
