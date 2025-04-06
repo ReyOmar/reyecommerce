@@ -1,10 +1,6 @@
 <h1 align='center'>
-    💎 FREEMIUM ECOMMERCE 💎
+     FREEMIUM ECOMMERCE 
 <h1/>
-
-<p align='center'>
-    Full production aplication...
-</p>
 
 <p align='center'>
 
