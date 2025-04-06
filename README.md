@@ -2,8 +2,6 @@
      FREEMIUM ECOMMERCE 
 <h1/>
 
-<p align='center'>
-
 ## BY
 
 - [@ReyOmar](https://github.com/ReyOmar)
@@ -11,8 +9,6 @@
 - [@JAFO1108](https://github.com/JAFO1108)
 
 - Paula Martinez 
-
-</p>
 
 <h1 align='center'>
   🚀 AKAIRO S.A.S
@@ -34,4 +30,4 @@
 
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<!-- ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png) -->
