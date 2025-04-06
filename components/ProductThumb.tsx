@@ -48,7 +48,7 @@ function ProductThumb({ product }: { product: Product }) {
                     </p>
                     {/* Renderiza el precio del producto - Add the price to the product thumb */}
                     <p className='mt-2 text-lg font-bold text-gray-900'>
-                        £{product.price?.toFixed(2)}
+                        ${product.price?.toFixed(2)}
                     </p>
                 </div>
         </Link>
