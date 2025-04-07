@@ -8,7 +8,7 @@
 
 - [@JAFO1108](https://github.com/JAFO1108)
 
-- Paula Martinez 
+- [@PaulaMart57](https://github.com/PaulaMart57)
 
 <h1 align='center'>
   🚀 AKAIRO S.A.S
