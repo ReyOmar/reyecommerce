@@ -6,7 +6,7 @@
 
 - [@ReyOmar](https://github.com/ReyOmar)
 
-- [@JAFO1108](https://github.com/JAFO1108)
+- [@JAFO22](https://github.com/JAFO22)
 
 - [@PaulaMart57](https://github.com/PaulaMart57)
 
