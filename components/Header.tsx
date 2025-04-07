@@ -32,7 +32,7 @@ function Header() {
                         mx-auto 
                         sm:mx-0"
                 >
-                    
+                   here goes the name-logo mb 
                 </Link>
                 
                 <Form
