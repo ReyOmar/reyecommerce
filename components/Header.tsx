@@ -32,7 +32,8 @@ function Header() {
                         mx-auto 
                         sm:mx-0"
                 >
-                   here goes the name-logo mb 
+                    {/* here goes the name-logo 2 mb */}
+
                 </Link>
                 
                 <Form
