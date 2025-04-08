@@ -2,18 +2,18 @@
      FREEMIUM ECOMMERCE 
 <h1/>
 
-## BY
+<!-- ## BY
 
 - [@ReyOmar](https://github.com/ReyOmar)
 
-- [@JAFO22](https://github.com/JAFO22)
+- [@JAFO1108](https://github.com/JAFO1108)
 
-- [@PaulaMart57](https://github.com/PaulaMart57)
+- Paula Martinez 
 
 <h1 align='center'>
   🚀 AKAIRO S.A.S
   <img src="https://img.shields.io/badge/AKAIRO-red" />
-</h1>
+</h1> -->
 
 
 <p align='center'>
