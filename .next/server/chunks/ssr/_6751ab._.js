@@ -98,7 +98,7 @@ async function BlackFridayBanner() {
                                 className: "text-red-600 ",
                                 children: [
                                     "for ",
-                                    sale.discountAmount,
+                                    sale.discoundAmount,
                                     "% OFF"
                                 ]
                             }, void 0, true, {

@@ -29,6 +29,4 @@ async function CategoryPage(
 
 export default CategoryPage;
 
-//test XO 2
-
 //3:05:16

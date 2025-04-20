@@ -22,7 +22,7 @@ async function BlackFridayBanner() {
                     <div className="flex">
                         <div className="bg-white text-black py-4 px-6 rounded-full shadow-md transform hover:scale-105 transition duration-300">
                             <span className="text-red-600 ">
-                                for {sale.discountAmount}% OFF
+                                for {sale.discoundAmount}% OFF
                             </span>
                         </div>
                     </div>
@@ -31,5 +31,5 @@ async function BlackFridayBanner() {
         </div>
     );
 }
-
+// revisar variable discoundAmount
 export default BlackFridayBanner;
