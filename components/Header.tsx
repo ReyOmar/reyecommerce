@@ -33,7 +33,7 @@ function Header() {
                         sm:mx-0"
                 >
                     {/* here goes the name-logo 2 mb */}
-
+                    Free
                 </Link>
                 
                 <Form
