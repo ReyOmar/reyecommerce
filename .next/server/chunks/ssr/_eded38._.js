@@ -49,6 +49,7 @@ function Loading() {
 }
 const __TURBOPACK__default__export__ = Loading;
  // 3:06:20
+ //3:08:29
 }}),
 "[project]/app/(store)/loading.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 
