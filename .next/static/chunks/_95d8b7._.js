@@ -41,8 +41,8 @@ function Header() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",
-                    className: "   text-2xl   font-bold   text-blue-500   hover:opacity-50   cursor-pointer   mx-auto    sm:mx-0",
-                    children: "Free"
+                    className: "   text-2xl   font-bold   text-pink-500   hover:opacity-50   cursor-pointer   mx-auto    sm:mx-0",
+                    children: "Freemium"
                 }, void 0, false, {
                     fileName: "[project]/components/Header.tsx",
                     lineNumber: 24,
@@ -55,7 +55,7 @@ function Header() {
                         type: "text",
                         name: "query",
                         placeholder: "Search for products",
-                        className: "   bg-gray-100   text-gray-800   px-4   py-2   rounded   focus:outline-none   focus:ring-2   focus:ring-blue-500   focus:ring-opacity-50   border   w-full   max-w-4xl   "
+                        className: "   bg-gray-100   text-gray-800   px-4   py-2   rounded   focus:outline-none   focus:ring-2   focus:ring-pink-500   focus:ring-opacity-50   border   w-full   max-w-4xl   "
                     }, void 0, false, {
                         fileName: "[project]/components/Header.tsx",
                         lineNumber: 43,
@@ -71,7 +71,7 @@ function Header() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/basket",
-                            className: "flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
+                            className: "flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$icons$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TrolleyIcon"], {
                                     className: "w-6 h-6"
@@ -98,7 +98,7 @@ function Header() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignedIn"], {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/orders",
-                                        className: "flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
+                                        className: "flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$icons$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PackageIcon"], {
                                                 className: "w-6 h-6"
@@ -172,7 +172,7 @@ function Header() {
                                 }, this),
                                 user?.passkeys.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: createClerkPasskey,
-                                    className: "bg-white hover:bg-blue-700 hover:text-white animate-pulse text-blue-500 font py-2 px-4 rounded border-blue-300 border",
+                                    className: "bg-white hover:bg-pink-700 hover:text-white animate-pulse text-pink-500 font py-2 px-4 rounded border-pink-300 border",
                                     children: "Create passkey"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",

@@ -19,7 +19,7 @@ async function CategoryPage(
                         .split("-")
                         .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
                         .join(" ")}{''}
-                    Collection
+                    -Collection
                 </h1>
                 <ProductsView products={products} categories={categories} />
             </div>

@@ -26,14 +26,14 @@ function Header() {
                     className="
                         text-2xl
                         font-bold
-                        text-blue-500
+                        text-pink-500
                         hover:opacity-50
                         cursor-pointer
                         mx-auto 
                         sm:mx-0"
                 >
                     {/* here goes the name-logo 2 mb */}
-                    Free
+                    Freemium
                 </Link>
                 
                 <Form
@@ -52,7 +52,7 @@ function Header() {
                             rounded
                             focus:outline-none
                             focus:ring-2
-                            focus:ring-blue-500
+                            focus:ring-pink-500
                             focus:ring-opacity-50
                             border
                             w-full
@@ -64,7 +64,7 @@ function Header() {
                 <div className="flex items-center space-x-4 mt-4 sm:mt-0 flex-1 sm:flex-none">
                     <Link 
                         href="/basket"
-                        className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                        className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
                     >
                         <TrolleyIcon className="w-6 h-6" />
                         {/* Span item count once global state is implemented */}
@@ -76,7 +76,7 @@ function Header() {
                         <SignedIn>
                             <Link
                                 href="/orders"
-                                className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
                             >
                                 <PackageIcon className="w-6 h-6" />
                                 <span>My Orders</span>
@@ -99,7 +99,7 @@ function Header() {
                         {user?.passkeys.length === 0 && (
                             <button
                                 onClick={createClerkPasskey}
-                                className="bg-white hover:bg-blue-700 hover:text-white animate-pulse text-blue-500 font py-2 px-4 rounded border-blue-300 border"
+                                className="bg-white hover:bg-pink-700 hover:text-white animate-pulse text-pink-500 font py-2 px-4 rounded border-pink-300 border"
                             >
                                 Create passkey
                             </button>

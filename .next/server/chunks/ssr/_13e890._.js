@@ -240,7 +240,7 @@ async function CategoryPage({ params }) {
                     children: [
                         slug.split("-").map((word)=>word.charAt(0).toUpperCase() + word.slice(1)).join(" "),
                         '',
-                        "Collection"
+                        "-Collection"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/(store)/categories/[slug]/page.tsx",

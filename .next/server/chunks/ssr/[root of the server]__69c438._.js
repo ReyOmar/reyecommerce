@@ -551,7 +551,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 __turbopack_esm__({
     "structure": (()=>structure)
 });
-const structure = (S)=>S.list().title('Shopza').items([
+const structure = (S)=>S.list().title('Freemium').items([
         S.documentTypeListItem("category").title("Categories"),
         S.divider(),
         ...S.documentTypeListItems().filter((item)=>item.getId() && ![
