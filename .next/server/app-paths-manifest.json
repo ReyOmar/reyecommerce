@@ -2,7 +2,5 @@
   "/(store)/page": "app/(store)/page.js",
   "/(store)/product/[slug]/page": "app/(store)/product/[slug]/page.js",
   "/studio/[[...tool]]/page": "app/studio/[[...tool]]/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(store)/search/page": "app/(store)/search/page.js",
   "/(store)/categories/[slug]/page": "app/(store)/categories/[slug]/page.js"
 }

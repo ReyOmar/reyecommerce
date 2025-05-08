@@ -11,9 +11,9 @@
     "static/chunks/bdf54_swr_dist_ca67dc._.js",
     "static/chunks/node_modules_@sanity_icons_dist_index_068d3b.js",
     "static/chunks/node_modules_@clerk_clerk-react_dist_7f3b3b._.js",
-    "static/chunks/node_modules_c911e5._.js",
-    "static/chunks/_95d8b7._.js",
-    "static/chunks/node_modules_279ee6._.js"
+    "static/chunks/node_modules_b72de9._.js",
+    "static/chunks/_077d2f._.js",
+    "static/chunks/node_modules_54c882._.js"
   ],
   "source": "dynamic"
 });
