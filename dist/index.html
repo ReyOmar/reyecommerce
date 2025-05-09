@@ -26,7 +26,7 @@
     return {publish, subscribe, subscribers}
   })()
 
-  // NOTE: Store the error channel instance in the global scope so that the Studio application can
+  // NOTE: Store the error channel instance in the global scope so that the application can
   // access it and subscribe to errors.
   window.__sanityErrorChannel = {
     subscribe: errorChannel.subscribe,
@@ -250,7 +250,12 @@
     src: url("https://studio-static.sanity.io/Inter-BlackItalic.woff2") format("woff2");
   }
   html {
-    background-color: #f1f3f6;
+    @media (prefers-color-scheme: dark) {
+      background-color: #13141b;
+    }
+    @media (prefers-color-scheme: light) {
+      background-color: #ffffff;
+    }
   }
   html,
   body,
@@ -261,7 +266,8 @@
     margin: 0;
     -webkit-font-smoothing: antialiased;
   }
-</style></head><body><div id="sanity"></div><script type="module" src="/static/sanity-ca879d36.js"></script><noscript><div class="sanity-app-no-js__root"><div class="sanity-app-no-js__content"><style type="text/css">
+</style><script src="https://core.sanity-cdn.com/bridge.js" async type="module" data-sanity-core></script>
+</head><body><div id="sanity"></div><script type="module" src="/static/sanity-Bongw6-T.js"></script><noscript><div class="sanity-app-no-js__root"><div class="sanity-app-no-js__content"><style type="text/css">
 .sanity-app-no-js__root {
   position: absolute;
   top: 0;

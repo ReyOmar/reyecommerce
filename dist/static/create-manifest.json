@@ -1,13 +1,16 @@
 {
-  "version": 1,
-  "createdAt": "2025-05-09T19:22:30.106Z",
+  "version": 2,
+  "createdAt": "2025-05-09T19:48:06.049Z",
   "workspaces": [
     {
       "name": "default",
       "title": "Default",
       "basePath": "/studio",
+      "projectId": "hdtz06o1",
       "dataset": "production",
-      "schema": "5b08b6ca.create-schema.json"
+      "icon": "<style data-styled-version=\"6.1.13\" data-styled=\"true\">.joDSkh{font-family:Inter,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",\"Liberation Sans\",Helvetica,Arial,system-ui,sans-serif;font-weight:500;font-size:13px;transform:translateY(1px);}/*!sc*/\ndata-styled.g116[id=\"sc-iuUfFv\"]{content:\"joDSkh,\"}/*!sc*/\n</style><svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#4043e7\" rx=\"2\" height=\"32\" width=\"32\"></rect><text class=\"sc-iuUfFv joDSkh\" fill=\"hsla(239, 78%, 98%, 1)\" alignment-baseline=\"middle\" text-anchor=\"middle\" y=\"50%\" x=\"50%\">D</text></svg>",
+      "schema": "5b08b6ca.create-schema.json",
+      "tools": "5697be7d.create-tools.json"
     }
   ]
 }
