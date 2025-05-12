@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"file":"RefreshOnReconnect.js","sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/node_modules/.pnpm/%40sanity%2Bnext-loader%401.5.3_%40sanity%2Btypes%403.88.2_%40types%2Breact%4019.1.3__next%4015.3.2_%40babel%2Bcore%407_7mfojybcesyr26oj65l43treie/node_modules/%40sanity/next-loader/src/client-components/live/RefreshOnReconnect.tsx"],"sourcesContent":["import {useRouter} from 'next/navigation.js'\nimport {useEffect} from 'react'\n\nexport default function RefreshOnReconnect(): null {\n  const router = useRouter()\n\n  useEffect(() => {\n    const controller = new AbortController()\n    const {signal} = controller\n    window.addEventListener('online', () => router.refresh(), {passive: true, signal})\n    return () => controller.abort()\n  }, [router])\n\n  return null\n}\nRefreshOnReconnect.displayName = 'RefreshOnReconnect'\n"],"names":[],"mappings":";;;;;;;AAGA,SAAwB,qBAA2B;IACjD,MAAM,oTAAS,YAAA,CAAU;IAEzB,0UAAA,YAAA;wCAAU,MAAM;YACd,MAAM,aAAa,IAAI,gBACjB,GAAA,EAAC,MAAA,CAAU,CAAA,GAAA;YACjB,OAAA,OAAO,gBAAA,CAAiB;gDAAU,IAAM,OAAO,OAAA,CAAW;+CAAA;gBAAC,SAAS,CAAA;gBAAM;YAAM,CAAC;gDAC1E,IAAM,WAAW,KAAA,CAAM;;QAAA;uCAC7B;QAAC,MAAM;KAAC,GAEJ;AACT;AACA,mBAAmB,WAAA,GAAc","ignoreList":[0],"debugId":null}}]
+}

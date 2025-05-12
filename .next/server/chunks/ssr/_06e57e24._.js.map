@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/components/Loader.tsx"],"sourcesContent":["function Loader() {\r\n    return (\r\n        <div className=\"flex justify-center items-center h-screen\">\r\n            <div className=\"animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500\" />\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default Loader;\r\n"],"names":[],"mappings":";;;;;AAAA,SAAS;IACL,qBACI,+YAAC;QAAI,WAAU;kBACX,cAAA,+YAAC;YAAI,WAAU;;;;;;;;;;;AAG3B;uCAEe","debugId":null}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/app/%28store%29/loading.tsx"],"sourcesContent":["import Loader from \"../../components/Loader\";\r\n\r\nfunction Loading() {\r\n    return <Loader />;\r\n}\r\nexport default Loading;\r\n\r\n// 3:06:20\r\n\r\n\r\n//3:08:29"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS;IACL,qBAAO,+YAAC,qHAAA,CAAA,UAAM;;;;;AAClB;uCACe;CAEf,UAAU;CAGV,SAAS","debugId":null}}]
+}

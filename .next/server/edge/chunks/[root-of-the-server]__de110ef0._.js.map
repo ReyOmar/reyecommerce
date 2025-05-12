@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { clerkMiddleware } from \"@clerk/nextjs/server\";\r\n\r\nexport default clerkMiddleware();\r\n\r\nexport const config = {\r\n    matcher: [\r\n        // Skip Next.js internals and all static files, unless found in search params\r\n        '/((?!_next|[^?]*\\\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',\r\n        // Always run for API routes\r\n        '/(api|trpc)(.*)',\r\n    ],\r\n};"],"names":[],"mappings":";;;;AAAA;;uCAEe,CAAA,GAAA,8YAAA,CAAA,kBAAe,AAAD;AAEtB,MAAM,SAAS;IAClB,SAAS;QACL,6EAA6E;QAC7E;QACA,4BAA4B;QAC5B;KACH;AACL"}}]
+}

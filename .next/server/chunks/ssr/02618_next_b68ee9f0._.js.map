@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/node_modules/.pnpm/next%4015.3.2_%40babel%2Bcore%407.27.1_react-dom%4019.1.0_react%4019.1.0__react%4019.1.0/node_modules/next/compat/router.js"],"sourcesContent":["module.exports = require('../dist/client/compat/router')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/node_modules/.pnpm/next%4015.3.2_%40babel%2Bcore%407.27.1_react-dom%4019.1.0_react%4019.1.0__react%4019.1.0/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/node_modules/.pnpm/next%4015.3.2_%40babel%2Bcore%407.27.1_react-dom%4019.1.0_react%4019.1.0__react%4019.1.0/node_modules/next/script.js"],"sourcesContent":["module.exports = require('./dist/client/script')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rey%20Omar%20Esguerra/Downloads/reyecommerce/node_modules/.pnpm/next%4015.3.2_%40babel%2Bcore%407.27.1_react-dom%4019.1.0_react%4019.1.0__react%4019.1.0/node_modules/next/router.js"],"sourcesContent":["module.exports = require('./dist/client/router')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}
