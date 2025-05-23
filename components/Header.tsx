@@ -76,7 +76,7 @@ function Header() {
                             {itemCount}
                         </span>
                         {/* 3:20:42 */}
-                        <span>My Basket</span>
+                        <span>My Cart</span>
                     </Link>
 
                     {/*User area*/}

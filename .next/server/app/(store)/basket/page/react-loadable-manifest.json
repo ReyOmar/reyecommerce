@@ -6,13 +6,6 @@
       "static/chunks/node_modules_@sanity_next-loader_dist__chunks-es_RefreshOnMount_454d32.js"
     ]
   },
-  "node_modules/@sanity/next-loader/dist/client-components/live-stream.js -> ../_chunks-es/SanityLiveStream.js": {
-    "id": "node_modules/@sanity/next-loader/dist/client-components/live-stream.js -> ../_chunks-es/SanityLiveStream.js",
-    "files": [
-      "static/chunks/node_modules_500f07._.js",
-      "static/chunks/node_modules_@sanity_next-loader_dist__chunks-es_SanityLiveStream_454d32.js"
-    ]
-  },
   "node_modules/@sanity/next-loader/dist/client-components/live.js -> ../_chunks-es/RefreshOnReconnect.js": {
     "id": "node_modules/@sanity/next-loader/dist/client-components/live.js -> ../_chunks-es/RefreshOnReconnect.js",
     "files": [
@@ -25,6 +18,13 @@
     "files": [
       "static/chunks/node_modules_0fcde0._.js",
       "static/chunks/node_modules_@sanity_next-loader_dist__chunks-es_RefreshOnFocus_454d32.js"
+    ]
+  },
+  "node_modules/@sanity/next-loader/dist/client-components/live-stream.js -> ../_chunks-es/SanityLiveStream.js": {
+    "id": "node_modules/@sanity/next-loader/dist/client-components/live-stream.js -> ../_chunks-es/SanityLiveStream.js",
+    "files": [
+      "static/chunks/node_modules_500f07._.js",
+      "static/chunks/node_modules_@sanity_next-loader_dist__chunks-es_SanityLiveStream_454d32.js"
     ]
   },
   "node_modules/@sanity/next-loader/dist/client-components/live.js -> ../_chunks-es/PresentationComlink.js": {

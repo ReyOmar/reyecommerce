@@ -913,6 +913,14 @@ body {
   top: -.5rem;
 }
 
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
 .left-\[50\%\] {
   left: 50%;
 }
@@ -927,14 +935,6 @@ body {
 
 .top-\[50\%\] {
   top: 50%;
-}
-
-.bottom-0 {
-  bottom: 0;
-}
-
-.left-0 {
-  left: 0;
 }
 
 .z-50 {
@@ -1055,12 +1055,20 @@ body {
   height: 1.5rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-fit {
+  height: fit-content;
 }
 
 .h-full {
@@ -1073,14 +1081,6 @@ body {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
-.h-fit {
-  height: fit-content;
 }
 
 .max-h-\[300px\] {
@@ -1842,6 +1842,11 @@ body {
 
 .hover\:bg-secondary\/80:hover {
   background-color: hsl(var(--secondary) / .8);
+}
+
+.hover\:bg-pink-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-accent-foreground:hover {

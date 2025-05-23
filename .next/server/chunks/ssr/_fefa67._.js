@@ -58,7 +58,7 @@ function AddToBasketButton({ product, disabled }) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: ()=>addItem(product),
-                className: `w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-200 ${disabled ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600"}`,
+                className: `w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-200 ${disabled ? "bg-gray-400 cursor-not-allowed" : "bg-pink-500 hover:bg-pink-600"}`,
                 disabled: disabled,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "text-white text-xl font-bold",
@@ -212,7 +212,7 @@ function BasketPage() {
     if (!isClient) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/app/(store)/basket/page.tsx",
-            lineNumber: 28,
+            lineNumber: 29,
             columnNumber: 12
         }, this);
     }
@@ -222,32 +222,43 @@ function BasketPage() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-2xl font-bold mb-6 text=gray-800",
-                    children: "Your Basket"
+                    children: "Your Cart"
                 }, void 0, false, {
                     fileName: "[project]/app/(store)/basket/page.tsx",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-600 text-lg",
-                    children: "Your basket is empty"
+                    children: "Your Cart is empty"
                 }, void 0, false, {
                     fileName: "[project]/app/(store)/basket/page.tsx",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 13
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/(store)/basket/page.tsx",
-            lineNumber: 33,
+            lineNumber: 34,
             columnNumber: 9
         }, this);
     }
     const handleCheckout = async ()=>{
         if (!isSignedIn) return;
         setIsLoading(true);
-        try {} catch (error) {
-            console.error(error);
+        try {
+            const metadata = {
+                orderNumber: crypto.randomUUID(),
+                customerName: user?.fullName ?? "Unknown",
+                customerEmail: user?.emailAddresses[0].emailAddress ?? "Unknown",
+                clerkUserId: user.id
+            };
+            const checkoutUrl = await createCheckoutSession(groupedItems, metadata);
+            if (checkoutUrl) {
+                window.location.href = checkoutUrl;
+            }
+        } catch (error) {
+            console.error('Error creating checkout session:', error);
         } finally{
             setIsLoading(false);
         }
@@ -258,10 +269,10 @@ function BasketPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-2xl font-bold mb-4",
-                children: "Your Basket"
+                children: "Your Cart"
             }, void 0, false, {
                 fileName: "[project]/app/(store)/basket/page.tsx",
-                lineNumber: 56,
+                lineNumber: 69,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -286,12 +297,12 @@ function BasketPage() {
                                                     height: 96
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(store)/basket/page.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 85,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 83,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -302,7 +313,7 @@ function BasketPage() {
                                                         children: item.product.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                                        lineNumber: 82,
+                                                        lineNumber: 95,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -313,19 +324,19 @@ function BasketPage() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 98,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 94,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 77,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -334,23 +345,23 @@ function BasketPage() {
                                             product: item.product
                                         }, void 0, false, {
                                             fileName: "[project]/app/(store)/basket/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 106,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 105,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, item.product._id, true, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                lineNumber: 60,
+                                lineNumber: 73,
                                 columnNumber: 21
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/(store)/basket/page.tsx",
-                        lineNumber: 58,
+                        lineNumber: 71,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -361,7 +372,7 @@ function BasketPage() {
                                 children: "Order Summary"
                             }, void 0, false, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                lineNumber: 100,
+                                lineNumber: 113,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -374,20 +385,20 @@ function BasketPage() {
                                                 children: "Items:"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 116,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: groupedItems.reduce((total, item)=>total + item.quantity, 0)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 117,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 115,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -397,7 +408,7 @@ function BasketPage() {
                                                 children: "Total:"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 122,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -407,68 +418,68 @@ function BasketPage() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 123,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(store)/basket/page.tsx",
-                                        lineNumber: 108,
+                                        lineNumber: 121,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                lineNumber: 101,
+                                lineNumber: 114,
                                 columnNumber: 21
                             }, this),
                             isSignedIn ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: handleCheckout,
                                 disabled: isLoading,
-                                className: "mt-4 w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 disabled:bg-gray-400",
+                                className: "mt-4 w-full bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 disabled:bg-gray-400",
                                 children: isLoading ? 'Processing...' : 'Checkout'
                             }, void 0, false, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                lineNumber: 117,
+                                lineNumber: 130,
                                 columnNumber: 25
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["SignInButton"], {
                                 mode: "modal",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "mt-4 w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600",
+                                    className: "mt-4 w-full bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600",
                                     children: "Sign in to Checkout"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(store)/basket/page.tsx",
-                                    lineNumber: 126,
+                                    lineNumber: 139,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
-                                lineNumber: 125,
+                                lineNumber: 138,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(store)/basket/page.tsx",
-                        lineNumber: 99,
+                        lineNumber: 112,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "h-64 lg:h-0"
                     }, void 0, false, {
                         fileName: "[project]/app/(store)/basket/page.tsx",
-                        lineNumber: 133,
+                        lineNumber: 146,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(store)/basket/page.tsx",
-                lineNumber: 57,
+                lineNumber: 70,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(store)/basket/page.tsx",
-        lineNumber: 55,
+        lineNumber: 68,
         columnNumber: 3
     }, this);
 }

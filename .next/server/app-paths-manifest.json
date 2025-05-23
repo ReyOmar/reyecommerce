@@ -1,5 +1,6 @@
 {
   "/(store)/page": "app/(store)/page.js",
-  "/(store)/basket/page": "app/(store)/basket/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/studio/[[...tool]]/page": "app/studio/[[...tool]]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(store)/basket/page": "app/(store)/basket/page.js"
 }

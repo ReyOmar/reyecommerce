@@ -29,6 +29,7 @@
     "react-is": "^19.0.0",
     "reyecommerce": "file:",
     "sanity": "^3.66.1",
+    "stripe": "^18.1.1",
     "styled-components": "^6.1.13",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
