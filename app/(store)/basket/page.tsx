@@ -1,6 +1,6 @@
 'use client';
 
-import { Metadata } from "@/actions/createCheckoutSession";
+import { createCheckoutSession, Metadata } from "@/actions/createCheckoutSession";
 import AddToBasketButton from "@/components/AddToBasketButton";
 import Loader from "@/components/Loader";
 import { imageUrl } from "@/lib/imageUrl";
