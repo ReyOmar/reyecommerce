@@ -28,11 +28,11 @@
     "static/chunks/node_modules_@sentry_browser_build_npm_esm_44e7dc._.js",
     "static/chunks/node_modules_polished_dist_polished_esm_5b2c37.js",
     "static/chunks/node_modules_@tanstack_table-core_build_lib_index_mjs_dc7bc5._.js",
-    "static/chunks/node_modules_@sanity_43b52b._.js",
+    "static/chunks/node_modules_@sanity_d61d72._.js",
     "static/chunks/node_modules_@floating-ui_9ec1fa._.js",
     "static/chunks/node_modules_d0bf3f._.js",
     "static/chunks/_cd3a2d._.js",
-    "static/chunks/node_modules_b2d126._.js"
+    "static/chunks/node_modules_9a8b1c._.js"
   ],
   "source": "dynamic"
 });

@@ -705,7 +705,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sanity$2f$li
 /**
  * This configuration is used to for the Sanity Studio that’s mounted on the `\app\studio\[[...tool]]\page.tsx` route
  */ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$vision$2f$lib$2f$_chunks$2d$es$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@sanity/vision/lib/_chunks-es/index.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$presentation$2f$dist$2f$_chunks$2d$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@sanity/presentation/dist/_chunks-es/index.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -726,6 +728,14 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
         // https://www.sanity.io/docs/the-vision-plugin
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$vision$2f$lib$2f$_chunks$2d$es$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["visionTool"])({
             defaultApiVersion: __TURBOPACK__imported__module__$5b$project$5d2f$sanity$2f$env$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["apiVersion"]
+        }),
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$presentation$2f$dist$2f$_chunks$2d$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["presentationTool"])({
+            previewUrl: {
+                preview: "/",
+                previewMode: {
+                    enable: "/draft-mode/enable"
+                }
+            }
         })
     ]
 });

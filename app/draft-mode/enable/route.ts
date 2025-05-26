@@ -4,9 +4,9 @@
  */
 
 import { validatePreviewUrl } from "@sanity/preview-url-secret";
-import { client } from "@sanity/lib/client";
 import { redirect } from "next/navigation";
 import { draftMode } from "next/headers";
+import { client } from "@/sanity/lib/client";
 
 const token = process.env.SANITY_API_READ_TOKEN;
 

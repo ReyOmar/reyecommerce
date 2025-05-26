@@ -917,6 +917,10 @@ body {
   bottom: 0;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .left-0 {
   left: 0;
 }
@@ -2166,6 +2170,14 @@ body {
 
   .sm\:rounded-lg {
     border-radius: var(--radius);
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
   }
 
   .sm\:text-left {

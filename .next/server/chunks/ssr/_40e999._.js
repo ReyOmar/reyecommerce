@@ -161,9 +161,10 @@ const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
     apiVersion: __TURBOPACK__imported__module__$5b$project$5d2f$sanity$2f$env$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["apiVersion"],
     useCdn: true,
     stega: {
-        studioUrl: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}/studio` : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
+        studioUrl: process.env.VERCEL_URL === 'production' ? `https://${process.env.VERCEL_URL}/studio` : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
     }
 }); //stega 1:43:20
+ //4:36:07 
 }}),
 "[project]/lib/imageUrl.ts [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
