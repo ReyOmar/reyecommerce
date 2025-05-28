@@ -1,5 +1,4 @@
 import { TagIcon } from '@sanity/icons';
-import { title } from 'process';
 import { defineField, defineType } from 'sanity';
 //usando comilla simple en lugar de comilla doble, puede ser un problema
 export const salesType = defineType({
@@ -19,15 +18,15 @@ export const salesType = defineType({
             title: 'Sale Description',
         }),
         defineField({
-            name: 'discoundAmount',
+            name: 'discountAmount',
             type: 'number',
             title: 'Discount Amount',
             description: 'Amount off percentage or fixed value',
         }),
         defineField({
-            name: 'cuponCode',
+            name: 'couponCode',
             type: 'string',
-            title: 'Cupon Code',
+            title: 'Coupon Code',
         }),
         defineField({
             name: 'validFrom',
@@ -60,7 +59,7 @@ export const salesType = defineType({
             return {
                 title,
                 subtitle: `${discountAmount}% off - Code: ${couponCode} - ${status}`,
-            }
-        }
+            };
+        },
     },
 });

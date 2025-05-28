@@ -1,10 +1,5 @@
 {
   "/(store)/page": "app/(store)/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(store)/orders/page": "app/(store)/orders/page.js",
-  "/(store)/product/[slug]/page": "app/(store)/product/[slug]/page.js",
-  "/(store)/basket/page": "app/(store)/basket/page.js",
-  "/(store)/success/page": "app/(store)/success/page.js",
   "/studio/[[...tool]]/page": "app/studio/[[...tool]]/page.js",
-  "/draft-mode/enable/route": "app/draft-mode/enable/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

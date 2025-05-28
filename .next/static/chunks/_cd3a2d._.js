@@ -477,15 +477,15 @@ const salesType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modul
             title: 'Sale Description'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
-            name: 'discoundAmount',
+            name: 'discountAmount',
             type: 'number',
             title: 'Discount Amount',
             description: 'Amount off percentage or fixed value'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
-            name: 'cuponCode',
+            name: 'couponCode',
             type: 'string',
-            title: 'Cupon Code'
+            title: 'Coupon Code'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'validFrom',

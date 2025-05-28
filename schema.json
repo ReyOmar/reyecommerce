@@ -374,14 +374,14 @@
         },
         "optional": true
       },
-      "discoundAmount": {
+      "discountAmount": {
         "type": "objectAttribute",
         "value": {
           "type": "number"
         },
         "optional": true
       },
-      "cuponCode": {
+      "couponCode": {
         "type": "objectAttribute",
         "value": {
           "type": "string"

@@ -10,8 +10,8 @@ __turbopack_esm__({
 });
 const COUPON_CODES = {
     BFRIDAY: 'BFRIDAY',
-    XMAS2024: 'XMAS2024',
-    NY2025: 'NY2025'
+    XMAS2021: 'XMAS2021',
+    NY2025: 'NY2022'
 };
 }}),
 "[project]/sanity/lib/sales/getActiveSaleByCouponCode.ts [app-rsc] (ecmascript)": ((__turbopack_context__) => {
@@ -94,19 +94,40 @@ async function BlackFridayBanner() {
                         className: "flex",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-white text-black py-4 px-6 rounded-full shadow-md transform hover:scale-105 transition duration-300",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-red-600 ",
-                                children: [
-                                    "for ",
-                                    sale.discoundAmount,
-                                    "% OFF"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/BlackFridayBanner.tsx",
-                                lineNumber: 24,
-                                columnNumber: 29
-                            }, this)
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "font-bold text-base sm:text-xl",
+                                    children: [
+                                        "Use code: ",
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-red-600",
+                                            children: sale.couponCode
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/BlackFridayBanner.tsx",
+                                            lineNumber: 26,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/BlackFridayBanner.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "ml- font-bold text-base sm:text-xl",
+                                    children: [
+                                        "for ",
+                                        sale.discoundAmount,
+                                        "% OFF"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/BlackFridayBanner.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 29
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/BlackFridayBanner.tsx",
                             lineNumber: 23,
                             columnNumber: 25

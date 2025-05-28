@@ -479,12 +479,12 @@
       },
       {
         "description": "Amount off percentage or fixed value",
-        "name": "discoundAmount",
+        "name": "discountAmount",
         "type": "number",
         "title": "Discount Amount"
       },
       {
-        "name": "cuponCode",
+        "name": "couponCode",
         "type": "string"
       },
       {

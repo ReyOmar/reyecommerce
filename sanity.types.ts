@@ -644,7 +644,7 @@ export type ACTIVE_SALE_BY_COUPON_QUERYResult = {
   title?: string;
   description?: string;
   discoundAmount?: number;
-  cuponCode?: string;
+  couponCode?: string;
   validFrom?: string;
   validUntil?: string;
   isActive?: boolean;
