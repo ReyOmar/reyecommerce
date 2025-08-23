@@ -109,7 +109,7 @@ function Loader() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex justify-center items-center h-screen",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500"
+            className: "animate-spin rounded-full h-32 w-32 border-b-2 border-pink-500"
         }, void 0, false, {
             fileName: "[project]/components/Loader.tsx",
             lineNumber: 4,
@@ -161,7 +161,7 @@ const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
     apiVersion: __TURBOPACK__imported__module__$5b$project$5d2f$sanity$2f$env$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["apiVersion"],
     useCdn: true,
     stega: {
-        studioUrl: process.env.VERCEL_URL === 'production' ? `https://${process.env.VERCEL_URL}/studio` : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
+        studioUrl: ("TURBOPACK compile-time falsy", 0) ? ("TURBOPACK unreachable", undefined) : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
     }
 }); //stega 1:43:20
  //4:36:07 
@@ -238,7 +238,7 @@ function BasketPage() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-2xl font-bold mb-6 text=gray-800",
-                    children: "Your Cart"
+                    children: "Tu Carrito"
                 }, void 0, false, {
                     fileName: "[project]/app/(store)/basket/page.tsx",
                     lineNumber: 35,
@@ -246,7 +246,7 @@ function BasketPage() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-600 text-lg",
-                    children: "Your Cart is empty"
+                    children: "Tu Carrito esta Vacio"
                 }, void 0, false, {
                     fileName: "[project]/app/(store)/basket/page.tsx",
                     lineNumber: 36,
@@ -285,7 +285,7 @@ function BasketPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-2xl font-bold mb-4",
-                children: "Your Cart"
+                children: "Tu Carrito"
             }, void 0, false, {
                 fileName: "[project]/app/(store)/basket/page.tsx",
                 lineNumber: 69,
@@ -335,7 +335,7 @@ function BasketPage() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-sm sm:text-base",
                                                         children: [
-                                                            "price: $",
+                                                            "Precio: $",
                                                             ((item.product.price ?? 0) * item.quantity).toFixed(2)
                                                         ]
                                                     }, void 0, true, {
@@ -385,7 +385,7 @@ function BasketPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-xl font-semibold",
-                                children: "Order Summary"
+                                children: "Resumen Orden"
                             }, void 0, false, {
                                 fileName: "[project]/app/(store)/basket/page.tsx",
                                 lineNumber: 113,
@@ -462,7 +462,7 @@ function BasketPage() {
                                 mode: "modal",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     className: "mt-4 w-full bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600",
-                                    children: "Sign in to Checkout"
+                                    children: "Inicia Sesion para Pagar"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(store)/basket/page.tsx",
                                     lineNumber: 139,

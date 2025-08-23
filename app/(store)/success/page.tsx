@@ -40,17 +40,17 @@ function SuccessPage() {
                 </div>
 
                 <h1 className="text-4xl font-bold mb-6 text-center">
-                    Thank you for your order!
+                    Gracias por tu orden!
                 </h1>
 
                 <div className="border-t border-b border-gray-200 py-6 mb-6">
                     <p className="text-lg text-gray-700 mb-4">
-                        Your order has beeen confirmed and will be shipped shortly.
+                        Tu orden a sido confirmada y sera enviada pronto.
                     </p>
                     <div className="space-y-2">
                         {orderNumber && (
                             <p className="text-gray-600 flex items-center space-x-5">
-                                <span>Order Number: </span>
+                                <span>Numero de Orden: </span>
                                 <span className="font-mono text-sm text-green-600">
                                     {orderNumber}
                                 </span>
@@ -67,14 +67,14 @@ function SuccessPage() {
 
                 <div className="space-y-4">
                     <p className="text-gray-600">
-                        A confirmation email has been sent to your registered email address.
+                        Una confirmacion ha sido enviada al email registrado.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button asChild className="bg-green-600 hover:bg-green-700">
-                            <Link href='/orders'>View Order Details</Link>
+                            <Link href='/orders'>Detalles</Link>
                         </Button>
                         <Button asChild variant='outline'>
-                            <Link href='/'>Continue Shopping</Link>
+                            <Link href='/'>Continuar Comprando</Link>
                         </Button>
                     </div>
                 </div>

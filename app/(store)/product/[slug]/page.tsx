@@ -37,7 +37,7 @@ async function ProductPage({
                     )}
                     {isOutOfStock && (
                         <div className="absolute inset-0 flex -items-center justify-center bg-black bg-opacity-50">
-                            <span className="text-white font-bold text-lg">Out of Stock</span>
+                            <span className="text-white font-bold text-lg">Sin Stock</span>
                         </div>
                     )}
                 </div>

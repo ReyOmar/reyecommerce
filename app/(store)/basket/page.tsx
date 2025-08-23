@@ -32,8 +32,8 @@ function BasketPage() {
   if (groupedItems.length === 0) {
     return (
         <div className="container mx-auto p-4 flex flex-col intems-center justify-center min-h-[50vh]">
-            <h1 className="text-2xl font-bold mb-6 text=gray-800">Your Cart</h1>
-            <p className="text-gray-600 text-lg">Your Cart is empty</p>
+            <h1 className="text-2xl font-bold mb-6 text=gray-800">Tu Carrito</h1>
+            <p className="text-gray-600 text-lg">Tu Carrito esta Vacio</p>
         </div>
     );
   }
@@ -66,7 +66,7 @@ function BasketPage() {
 
   return (
   <div className="container mx-auto p-4 max-w-6xl">
-    <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
+    <h1 className="text-2xl font-bold mb-4">Tu Carrito</h1>
         <div className="flex flex-col lg:flex-row gap-8">
             <div className="flex-grow">
                 {groupedItems?.map((item) => (
@@ -96,7 +96,7 @@ function BasketPage() {
                                     {item.product.name}
                                 </h2>
                                 <p className="text-sm sm:text-base">
-                                    price: $
+                                    Precio: $
                                     {((item.product.price ?? 0) * item.quantity).toFixed(2)}
                                 </p>
                             </div>
@@ -110,7 +110,7 @@ function BasketPage() {
             </div>
 
                 <div className="w-full lg:w-80 lg:sticky lg:top-4 h-fit bg-white p-6 border rounded order-first lg:order-last fixed bottom-0 left-0 lg:left-auto">
-                    <h3 className="text-xl font-semibold">Order Summary</h3>
+                    <h3 className="text-xl font-semibold">Resumen Orden</h3>
                     <div className="mt-4 space-y-2">
                         <p className="flex justify-between">
                             <span>Items:</span>
@@ -137,7 +137,7 @@ function BasketPage() {
                     ) : (
                         <SignInButton mode="modal">
                             <button className="mt-4 w-full bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">
-                                Sign in to Checkout
+                                Inicia Sesion para Pagar
                             </button>
                         </SignInButton>
                     )}

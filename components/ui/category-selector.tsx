@@ -43,7 +43,7 @@ export function CategorySlectorComponent({
             >
                 {value 
                     ? categories.find((category) => category._id === value)?.title
-                    : 'All Categories'}
+                    : 'Todas las categorias'}
                 <ChevronsUpDown className='ml-2 h-4 w-4 shrink-0' />
             </Button>
         </PopoverTrigger>

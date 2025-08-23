@@ -76,8 +76,8 @@ export type Sale = {
   _rev: string;
   title?: string;
   description?: string;
-  discoundAmount?: number;
-  cuponCode?: string;
+  discountAmount?: number;
+  couponCode?: string;
   validFrom?: string;
   validUntil?: string;
   isActive?: boolean;
@@ -643,7 +643,7 @@ export type ACTIVE_SALE_BY_COUPON_QUERYResult = {
   _rev: string;
   title?: string;
   description?: string;
-  discoundAmount?: number;
+  discountAmount?: number;
   couponCode?: string;
   validFrom?: string;
   validUntil?: string;

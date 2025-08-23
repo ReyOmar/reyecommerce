@@ -22,11 +22,11 @@ async function BlackFridayBanner() {
                     <div className="flex">
                         <div className="bg-white text-black py-4 px-6 rounded-full shadow-md transform hover:scale-105 transition duration-300">
                             <span className="font-bold text-base sm:text-xl">
-                                Use code: {" "}
+                                Usa el codigo: {" "}
                                 <span className="text-red-600">{sale.couponCode}</span>
                             </span>
                             <span className="ml- font-bold text-base sm:text-xl">
-                                for {sale.discoundAmount}% OFF
+                                 para {sale.discountAmount} % OFF
                             </span>
                         </div>
                     </div>

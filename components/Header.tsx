@@ -76,7 +76,7 @@ function Header() {
                             {itemCount}
                         </span>
                         {/* 3:20:42 */}
-                        <span>My Cart</span>
+                        <span>Carrito</span>
                     </Link>
 
                     {/*User area*/}
@@ -87,7 +87,7 @@ function Header() {
                                 className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
                             >
                                 <PackageIcon className="w-6 h-6" />
-                                <span>My Orders</span>
+                                <span>Ordenes</span>
                             </Link>
                         </SignedIn>
 
@@ -96,7 +96,7 @@ function Header() {
                                 <UserButton />
 
                                 <div className="hidden sm:block text-xs">
-                                    <p className="text-gray-400">Welcome Back</p>
+                                    <p className="text-gray-400">Bienvenido!</p>
                                     <p className="font-bold">{user.fullName}</p>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ function Header() {
                                 onClick={createClerkPasskey}
                                 className="bg-white hover:bg-pink-700 hover:text-white animate-pulse text-pink-500 font py-2 px-4 rounded border-pink-300 border"
                             >
-                                Create passkey
+                                Crear Passkey
                             </button>
                         )}
                     </ClerkLoaded>

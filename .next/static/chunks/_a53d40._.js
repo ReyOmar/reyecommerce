@@ -43,9 +43,10 @@ const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
     apiVersion: __TURBOPACK__imported__module__$5b$project$5d2f$sanity$2f$env$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["apiVersion"],
     useCdn: true,
     stega: {
-        studioUrl: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.VERCEL_URL ? `https://${__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.VERCEL_URL}/studio` : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
+        studioUrl: ("TURBOPACK compile-time falsy", 0) ? ("TURBOPACK unreachable", undefined) : `${"TURBOPACK compile-time value", "http://localhost:3000"}/studio`
     }
 }); //stega 1:43:20
+ //4:36:07 
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -755,7 +756,7 @@ function CategorySlectorComponent({ categories }) {
                     "aria-expanded": open,
                     className: "w-full max-w-full relative flex justify-center sm-justify-start sm:flex-none items-center space-x-2 bg-pink-500 hover:bg-pink-700 hover:text-white text-white font-bold py-2 px-4 rounded",
                     children: [
-                        value ? categories.find((category)=>category._id === value)?.title : 'All Categories',
+                        value ? categories.find((category)=>category._id === value)?.title : 'Todas las categorias',
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevrons$2d$up$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronsUpDown$3e$__["ChevronsUpDown"], {
                             className: "ml-2 h-4 w-4 shrink-0"
                         }, void 0, false, {

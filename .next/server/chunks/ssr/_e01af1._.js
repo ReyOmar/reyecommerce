@@ -151,7 +151,7 @@ function SuccessPage() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-4xl font-bold mb-6 text-center",
-                    children: "Thank you for your order!"
+                    children: "Gracias por tu orden!"
                 }, void 0, false, {
                     fileName: "[project]/app/(store)/success/page.tsx",
                     lineNumber: 42,
@@ -162,7 +162,7 @@ function SuccessPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-700 mb-4",
-                            children: "Your order has beeen confirmed and will be shipped shortly."
+                            children: "Tu orden a sido confirmada y sera enviada pronto."
                         }, void 0, false, {
                             fileName: "[project]/app/(store)/success/page.tsx",
                             lineNumber: 47,
@@ -174,7 +174,7 @@ function SuccessPage() {
                                 className: "text-gray-600 flex items-center space-x-5",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "Order Number: "
+                                        children: "Numero de Orden: "
                                     }, void 0, false, {
                                         fileName: "[project]/app/(store)/success/page.tsx",
                                         lineNumber: 53,
@@ -210,7 +210,7 @@ function SuccessPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-600",
-                            children: "A confirmation email has been sent to your registered email address."
+                            children: "Una confirmacion ha sido enviada al email registrado."
                         }, void 0, false, {
                             fileName: "[project]/app/(store)/success/page.tsx",
                             lineNumber: 69,
@@ -224,7 +224,7 @@ function SuccessPage() {
                                     className: "bg-green-600 hover:bg-green-700",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/orders",
-                                        children: "View Order Details"
+                                        children: "Detalles"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(store)/success/page.tsx",
                                         lineNumber: 74,
@@ -240,7 +240,7 @@ function SuccessPage() {
                                     variant: "outline",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/",
-                                        children: "Continue Shopping"
+                                        children: "Continuar Comprando"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(store)/success/page.tsx",
                                         lineNumber: 77,
